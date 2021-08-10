@@ -1,0 +1,29 @@
+@media (max-width: 1080px) {
+    .forms {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .contact-info{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+}
+@media (max-width: 1125px) {
+    .images1{
+     -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+    }
+}
+@media (max-width:980px) {
+    .footer1 {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+}
+@media (max-width:720px) {
+    .left {
+        width: 350px;
+    }
+}
